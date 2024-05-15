@@ -108,7 +108,7 @@ const editProfile = async (req, res) => {
         if (bio) user.bio = bio;
         if (phone) user.phone = phone;
         if (email) user.email = email;
-        // if (privacy) user.privacy = privacy;
+        if (privacy) user.privacy = privacy;
         await user.save();
         res.json({ message: 'Profile updated successfully', user });
     } catch (error) {
