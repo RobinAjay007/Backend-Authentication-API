@@ -35,9 +35,9 @@ POST auth/login: Log in
 POST auth/logout: Log out
 GET profile/getprofile: Get user's profile details
 PUT profile/editprofile: Update user's profile details
-PUT /profile/photo/:id: Update user's photo
+PUT profile/photo/:id: Update user's photo
 GET privacy/profiles/public: Get public profiles
-GET /admin/profiles: Get all profiles (admin only)
+GET admin/profiles: Get all profiles (admin only)
 
 ## Dependencies
 express
