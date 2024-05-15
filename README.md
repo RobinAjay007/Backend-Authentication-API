@@ -8,7 +8,6 @@ This project is a Node.js backend API for an authentication system with the adde
 - User authentication (login/logout) with username and password
 - User authentication with Google, Facebook, Twitter, or GitHub
 - Viewing and editing user profiles including photo, name, bio, phone, email, and password
-- Uploading a new photo or providing an image URL for user profiles
 - Setting user profiles as public or private
 - Admin users can view both public and private user profiles
 - Normal users can only view public user profiles
